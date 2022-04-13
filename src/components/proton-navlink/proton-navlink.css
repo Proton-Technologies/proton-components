@@ -1,0 +1,7 @@
+li{
+  width: max-content;
+}
+
+a, a:hover, a:active, a:visited {
+  text-decoration: none;
+}

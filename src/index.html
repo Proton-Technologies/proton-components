@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/proton-components.esm.js"></script>
+    <script nomodule src="/build/proton-components.js"></script>
+  </head>
+  <style>
+    body{
+      margin: 0;
+    }
+    
+    proton-navbar{
+      --height: 100px;
+    }
+
+    proton-button{
+      --border-radius: 30px;
+      --height: 140px;
+      --background: green;
+    }
+  </style>
+  <body>
+    
+
+    <proton-navbar spacing="">
+      <h1>hvshas</h1>
+      <proton-navlink-holder>
+        <proton-navlink>Home</proton-navlink>
+        <proton-navlink>About</proton-navlink>
+        <proton-navlink>Contact</proton-navlink>
+      </proton-navlink-holder>
+      <p>Services</p>
+    </proton-navbar>
+
+
+    <proton-button href="https://www.microsoft.com/en-ww/microsoft-teams/download-app" radius="lg">
+      Click me
+    </proton-button>
+
+
+    <proton-slideshow>
+      <proton-slide>
+        sajhs
+      </proton-slide>
+      <proton-slide>
+        dksjnsa
+      </proton-slide>
+    </proton-slideshow>
+
+  </body>
+</html>

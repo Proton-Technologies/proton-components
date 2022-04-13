@@ -1,0 +1,25 @@
+:host{
+  --background: #a0a0a0;
+  --color: #000;
+  --border-radius: unset;
+  --height: 40px;
+}
+button{
+  background: var(--background);
+  color:var(--color);
+  border-radius: var(--border-radius);
+  height: var(--height);
+  width: max-content;
+  border: 0;
+}
+
+button:hover{
+  filter: brightness(0.8)
+}
+
+.sm{ border-radius: 6px; }
+.md{ border-radius: 10px; }
+.lg{ border-radius: 15px; }
+.none{ border-radius: 0px; }
+
+
